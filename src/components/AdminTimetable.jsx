@@ -1,3 +1,4 @@
+// Author: Vrajesh Iyengar (58th Batch)
 import React, { useState } from "react";
 import { ViewState, EditingState } from "@devexpress/dx-react-scheduler";
 import {

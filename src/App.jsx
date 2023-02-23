@@ -1,3 +1,4 @@
+// Author: Vrajesh Iyengar (58th Batch)
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import "@fontsource/exo-2";
