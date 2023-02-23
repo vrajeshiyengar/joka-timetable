@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-// import { classes } from "./dummy_data";
+import "@fontsource/exo-2";
 import apiHelper from "./api-helper";
 import { TextField, Autocomplete } from "@mui/material";
 import AdminTimetable from "./components/AdminTimetable";
@@ -58,6 +58,7 @@ function App() {
           options={userIds}
           sx={{ width: 300, height: 100 }}
           renderInput={(params) => <TextField {...params} label="UserID" />}
+          disabled={true}
         />
       </div>
       {isAdmin ? (
